@@ -24,5 +24,5 @@ Tables:
 - Fetching all orders placed by a specific user.
   SELECT * FROM Orders WHERE user_id = 1;
 
-  -Updating product stock after an order is placed.
+-Updating product stock after an order is placed.
   UPDATE Products SET stock = stock - 2 WHERE id = 5;
